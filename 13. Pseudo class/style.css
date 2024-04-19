@@ -1,0 +1,26 @@
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: blueviolet;
+}
+a:visited{
+
+}
+
+li:nth-child(odd){
+    color: brown;
+}
+
+body::before{
+    content: "This is pseudo elements";
+}
+
+p::selection{
+    background-color: brown;
+    color: white;
+}
+
+img{
+    opacity: ;
+}

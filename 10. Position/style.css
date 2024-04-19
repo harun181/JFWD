@@ -1,0 +1,89 @@
+.parent {
+    position: relative;
+
+
+}
+
+.child-one {
+    position: relative;
+    left: 50px;
+   
+}
+
+.child-two {
+  position: fixed;
+  left: 60px;
+  
+}
+
+.child-three {
+  position: sticky;
+  top: 0;
+}
+
+.green{
+  height: 400px;
+  width: 600px;
+  background-color: green;
+  position: relative;
+
+}
+
+.red{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  z-index: -1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent {
+  padding: 5px;
+  background-color: #ca0db1;
+}
+
+.child {
+  padding: 5px;
+}
+
+.child-one {
+  background-color: rgb(33, 22, 185);
+}
+
+.child-two {
+  background-color: rgb(196, 41, 41);
+}
+
+.child-three {
+  background-color: rgb(114, 201, 33);
+}

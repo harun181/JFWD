@@ -1,0 +1,27 @@
+a[target]{
+    color: green;
+}
+
+a[target="_blank"]{
+    color: red;
+}
+
+p[class~="para"]{
+    color: blue;
+}
+
+p[class|="new"]{
+    color: brown;
+}
+
+p[class^="new"]{
+    color: blueviolet;
+}
+
+p[class$="para"]{
+    color: blue;
+}
+
+p[class*="agr"]{
+    color: red;
+}

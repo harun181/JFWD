@@ -1,0 +1,15 @@
+.p1{
+    background-color: yellow;
+    padding: 10px 5%;
+    border: 2px solid black;
+    height: 200px;
+    width: 90%;
+    float: right;
+    overflow: auto;
+}
+
+img{
+  float: inherit;
+  padding: 10px;
+}
+
